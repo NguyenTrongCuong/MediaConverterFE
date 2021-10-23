@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
-body {}
+body {
+}
 
 /* header */
 header {
@@ -50,6 +51,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 .advertisement-main {
     margin-top: 50px;
+
 }
 
 /*advertisement-main*/
@@ -162,6 +164,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     display        : flex;
     margin-top     : 60px;
     justify-content: center;
+
 
 }
 
