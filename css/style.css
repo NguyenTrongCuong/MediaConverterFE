@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+body {
+
+}
+/* header */
+header{
+	height: 50px;
+	background-color: #f16e43;
+}
+header > .container > .row{
+	padding-top: 10px;
+}
+header > .container > .row > .col-lg-6> .row > .col-lg-5 > h3{
+	margin-top: -5px;
+}
+header > .container > .row > .col-lg-6 > .row > .col-lg-6 > .row > .col-lg-6> .row>.col-lg-6 > h6 > a{
+	color: black;
+
+
+}
+
+
+/*advertisement-main*/
+.advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li{
+	list-style: none;
+}
+
+
+
+.advertisement-main{
+	margin-top: 50px;
+/*advertisement-main*/
+
+
+/*fotter*/
+}
+.footer{
+	margin-top: 50px;
+	background-color: #f16e43;
+}
+.footer .container .row{
+	margin-top: 20px;
+}
+.footer .container .row .col-lg-6 .row .col-lg-4 ul li{
+	list-style: none;
+}
+.footer .container .row .col-lg-6 .row .col-lg-5 ul li{
+	list-style: none;
+}
+.footer > .container > h2{
+	text-align: center;
+}
+/*fotter*/
+
+/*VietAnhNguyen*/
+
+header{
+	font-family: 22px 'Nunito', sans-serif;
+	color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	padding-top: auto;
+}
+.col-lg-5>h3{
+	color: #ff8000;
+}
+header > .container > .row > .col-lg-6 > .row > .col-lg-6 > .row > .col-lg-6> .row>.col-lg-6 > h6 > a{
+	color: #ff8000;
+}
+#convert-file{
+	color: #ff8000;
+}
+/*fotter*/
+.footer{
+	background: #333;
+	font-family: 0.5rem 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(244, 247, 246);
+    border-top: .1rem solid rgba(255,255,255,.2);
+	position: bottom;
+	bottom: 0; 
+}
+.footer > .container > h2{
+padding-bottom: 1rem;
+}
+.choose{
+	margin-top: 2rem;
+	text-align: left;
+	margin-left: 2rem;
+	font-size: 1.25rem;
+}
+.choose>.button{
+	margin-top: 1rem;
+	color: #333;
+    background-color: white;
+	border: 2px solid #333;
+    line-height: 1.25;
+	border-radius: .27rem;
+	transition-duration: 0.4s;
+}
+.choose>.button:hover {
+	background-color: #333;
+	color: white;
+  }
+.choose>select{    
+	color: #333;
+    background-color: white;
+    border-color: #333;
+	padding: 0.5rem 0.75rem;
+    line-height: 0.5rem;
+    border-radius: .27rem;
+}

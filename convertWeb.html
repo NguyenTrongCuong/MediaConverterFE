@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<title>Convert-Web</title>
+
+ 	<style>
+  /* Make the image fully responsive */
+  html{
+  background-color:black;
+  
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+  </style>
+</head>
+<body>
+<!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                   <div class="row">
+                   		<div class="col-lg-5">
+<!-- them id convert-file  -->							   
+                   			<h3 id="convert-file">Convert File</h3>
+
+                   		</div>
+                   		<div class="col-lg-7">
+                   			<div class="row">
+                   				<div class="col-lg-5"><h5>Tools<i class="fas fa-arrow-circle-down"></i></h5></div>
+                   				<div class="col-lg-3"><h5>API</h5></div>
+                   				<div class="col-lg-4"><h5>Pricing</h5></div>
+                   			</div>
+                   		</div>
+                   </div>
+                </div>
+                <div class="col-lg-6">
+                   	<div class="row">
+                   		<div class="col-lg-6"></div>
+                   		<div class="col-lg-6">
+                   			<div class="row">
+                   				<div class="col-lg-6"></div>
+                   				<div class="col-lg-6">
+                   					<div class="row">
+                   						<div class="col-lg-6"><h6><a href="#">SignUp</a></h6></div>
+                   						<div class="col-lg-6"><h6><a href="#">Logout</a></h6></div>
+                   					</div>
+                   				</div>
+                   			</div>
+                   		</div>
+                   	</div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- header -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/photo1.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/photo2.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/photo3.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+ 
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+  <!-- VietAnh-NutButton -->
+
+  <div class = "choose">
+	  <label>GET FILE FROM </label>
+	<select>
+		<option class="select-option">Google</option>
+		<option class="select-option">My Computer</option>
+	</select>
+</br>
+	<button class="button" id="button-select">SELECT</button>
+
+
+</div>
+
+<div class="advertisement-main">
+	<div class="container">
+		<div class="row">
+			<div  class="col-lg-6">
+				<div class="subadvertisement" style="margin-bottom: 30px;">
+				<div class="row">
+						<div class="col-lg-4"><img src="images/Icon1.png" style="width: 200px; height: 170px;"></div>
+					<div class="col-lg-8">
+						<ul>
+							<li><h4>+200 Formats Supported</h4></li>
+							<li>CloudConvert is your Swiss army knife for file conversions. We support nearly all audio, video, document, ebook, archive, image, spreadsheet, and presentation formats. Plus, you can use our online tool without downloading any software.</li>
+						</ul>
+					</div>
+					</div>
+			</div>
+			<div class="subadvertisement">
+				<div class="row">
+						<div class="col-lg-4"><img src="images/Icon2.png" style="width: 200px; height: 170px;"></div>
+					<div class="col-lg-8">
+						<ul>
+							<li><h4>High-Quality Conversions</h4></li>
+							<li>Besides using open source software under the hood, we’ve partnered with various software vendors to provide the best possible results. Most conversion types can be adjusted to your needs such as setting the quality and many other options.</li>
+						</ul>
+					</div>
+					</div>
+			</div>
+			</div>
+			<div  class="col-lg-6">
+			<div class="subadvertisement">
+				<div class="row">
+						<div class="col-lg-4"><img src="images/Icon3.png" style="width: 200px; height: 170px;"></div>
+					<div class="col-lg-8">
+						<ul>
+							<li><h4>Data Security</h4></li>
+							<li>CloudConvert has been trusted by our users and customers since its founding in 2012. No one except you will ever have access to your files. We earn money by selling access to our API, not by selling your data. Read more about that in our Privacy Policy.</li>
+						</ul>
+					</div>
+					</div>
+			</div>
+			<div class="subadvertisement" >
+				<div class="row">
+						<div class="col-lg-4"><img src="images/Icon4.png" style="width: 200px; height: 170px;"></div>
+					<div class="col-lg-8">
+						<ul>
+							<li><h4>Powerful API</h4></li>
+							<li>Our API allows custom integrations with your app. You pay only for what you actually use, and there are huge discounts for high-volume customers. We provide a lot of handy features such as full Amazon S3 integration. Check out the API documentation.</li>
+						</ul>
+					</div>
+					</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="row">
+					<div class="col-lg-4">
+						<ul>
+							<li><h5>Nhom00</h5></li>
+							<li>Made in Viet Nam</li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<ul>
+							<li><h5>BachKhoa</h5></li>
+							<li>Made in Viet Nam</li>
+						</ul>
+					</div>
+					<div class="col-lg-4">
+						<ul>
+							<li><h5>Hello World</h5></li>
+							<li>Made in Viet Nam</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="row">
+						<div class="col-lg-7"></div>
+						<div class="col-lg-5">
+							<ul>
+								<li>© 2021 IT-VUW</li>
+								<li>Made in Viet Nam</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2>Đại học Bách Khoa - Hà Nội</h2>
+		</div>
+	</div>
+
+</body>
+
+</html>
