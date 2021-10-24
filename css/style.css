@@ -191,15 +191,21 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 .body-all .body-main-button .icon-right>ul {
     display    : none;
-    background : green;
+    background : white;
     margin-left: -248px;
-    z-index    : 1;
+    width: 294px;
+   position: absolute;
+   z-index: 1;
 }
 
 .body-all .body-main-button .icon-right ul a {
     color          : black;
     font-weight    : bold;
     text-decoration: none;
+}
+.body-all .body-main-button .icon-right ul a li i{
+    padding: 10px;
+    width: 35px;
 }
 
 .body-all .body-main-button .icon-right ul li {
@@ -208,7 +214,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right ul li:hover {
-    background-color: orange;
+    background-color: grey;
 }
 
 .body-all .body-main-button .icon-right .select-icon:hover {
