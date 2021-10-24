@@ -158,7 +158,8 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*body-all*/
 
-.body-all {}
+.body-all {
+}
 
 .body-all .body-main-button {
     display        : flex;
@@ -166,27 +167,34 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     justify-content: center;
 
 
+
 }
 
 .body-all .body-main-button .text-left .select-text {
-    background-color: red;
-    /*padding       : 14px;*/
-    padding         : 8px;
+
+    padding         : 12px;
+    color: #fff;
+    background-color: #982f2d;
+    border-color: #8e2c2a;
+    font-family    : 22px 'Nunito', sans-serif;
 
 }
 
 .body-all .body-main-button .text-left .select-text a {
     text-decoration: none;
-    color          : black;
+    color          : white;
 }
 
 .body-all .body-main-button .select-text:hover {
-    background: yellow;
+    background: brown;
 }
 
 .body-all .body-main-button .icon-right .select-icon {
-    background-color: red;
-    padding         : 8px;
+    padding         : 12px;
+    color: #fff;
+    background-color: #982f2d;
+    border-color: #8e2c2a;
+    font-family    : 22px 'Nunito', sans-serif;
 }
 
 .body-all .body-main-button .icon-right>ul {
@@ -218,7 +226,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right .select-icon:hover {
-    background: yellow;
+    background: brown;
 }
 
 /*body-all*/
