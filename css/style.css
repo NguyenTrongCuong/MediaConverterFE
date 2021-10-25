@@ -206,8 +206,9 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .body-all .body-main-button .icon-right>ul {
     display    : none;
     background : white;
-    margin-left: -248px;
-    width: 294px;
+    margin-left: -210px;
+    margin-top: 3px;
+    width: 254px;
    position: absolute;
    z-index: 1;
 }
