@@ -136,6 +136,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 /*body-all*/
 
 .body-all {
+
 }
 
 .body-all .body-main-button {
@@ -147,11 +148,6 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .text-left .select-text {
-
-    /*padding         : 7px;
-    padding-left: 10px;
-    padding-right: 10px;
-    */
     color: #fff;
     background-color: #b53836;
     border-color: #b53836;
@@ -174,52 +170,63 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right .select-icon {
-    /*padding         : 7px;
-    */
     color: #fff;
     background-color: #b53836;
     border-color: #b53836;
     font-family    : 10px 'Nunito', sans-serif;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+
     padding: 8px 12px 8px 15px;
 
 }
 
 .body-all .body-main-button .icon-right>ul {
-    display    : none;
+    /*display    : none;*/
     background : white;
     margin-left: -210px;
-    margin-top: 3px;
-    /*width: 254px;*/
+    margin-top: 2px;
    position: absolute;
    z-index: 1;
    font-size: 18.75px;
+
 }
 
+.body-all .body-main-button .icon-right{
+
+}
 .body-all .body-main-button .icon-right ul a {
-    color          : black;
-    font-weight    : bold;
-    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.4rem;
+    margin-left: 0.15rem;
+    clear: both;
+    font-weight: 400;
+    color: #141414;
+    border: 0;
+    background-color: #f0f0f5;
+ 
 }
 .body-all .body-main-button .icon-right ul a li i{
     padding: 10px;
-   /* width: 35px;*/
 }
 
 .body-all .body-main-button .icon-right ul li {
     list-style : none;
-    margin-left: -35px;
-
+    color: black;
+    font-size: 90%;
 }
 .body-all .body-main-button .icon-right h2{
     font-size: 15px;
     padding: 12px 15px 8px 5px;
     vertical-align: middle;
-}
 
+}
+.body-all .body-main-button .icon-right .select-icon{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
 .body-all .body-main-button .icon-right ul li:hover {
-    background-color: grey;
+
+    
 }
 
 .body-all .body-main-button .icon-right .select-icon:hover {
