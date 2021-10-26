@@ -83,7 +83,6 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*VietAnhNguyen*/
 header {
-    font-family    : 22px 'Nunito', sans-serif;
     color          : white;
     position       : fixed;
     top            : 0;
@@ -95,7 +94,7 @@ header {
     align-items    : center;
     justify-content: space-between;
     padding-top    : auto;
-
+    height: 56px;
 }
 
 .col-lg-5>h3 {
