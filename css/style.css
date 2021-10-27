@@ -48,9 +48,14 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li {
     list-style: none;
 }
+.advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li h4{
+    font-weight: bold;
 
+}
 .advertisement-main {
+    weight: 700px;
     margin-top: 50px;
+    font-family: 'Nutito',sans-serif;
 
 }
 
@@ -174,7 +179,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     border-color: #b53836;
     font-family    : 10px 'Nunito', sans-serif;
 
-    padding: 8px 12px 8px 15px;
+    padding: 10px 12px 6px 15px;
 
 }
 
