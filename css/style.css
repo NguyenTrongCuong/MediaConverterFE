@@ -15,11 +15,16 @@ header>.container>.row {
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6>h3 {
     margin-top: -5px;
+
 }
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6 .row a {
     color          : white;
     text-decoration: none;
+    text-decoration: none;
+    vertical-align: middle;
+/*    font-family: 'Nunito', sans-serif;*/
+    font-size: 18.5px;
 }
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6 .row a:hover {
@@ -31,14 +36,17 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6 #api h5 {
     margin-left: -10px;
 }
 
+header>.container>.row>.col-lg-6>.row>.col-lg-6 .row .col-lg-6 .row .col-lg-7{
+    /*Sign-Up*/
+    margin-right: 0.5rem;
+    margin-left: -0.5rem;
+
+}
 header>.container>.row>.col-lg-6>.row>.col-lg-6 #logo a {
     text-decoration: none;
     color          : white;
 }
 
-header>.container>.row>.col-lg-6>.row>.col-lg-6 .row a {
-    text-decoration: none;
-}
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6>a {
     color: black;
@@ -47,15 +55,17 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 /*advertisement-main*/
 .advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li {
     list-style: none;
+    font-size: 14px;
 }
 .advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li h4{
     font-weight: bold;
 
 }
 .advertisement-main {
-    weight: 700px;
-    margin-top: 50px;
+    margin-left: -3rem;
+    margin-top: 46px;
     font-family: 'Nutito',sans-serif;
+
 
 }
 
