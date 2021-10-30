@@ -215,19 +215,24 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     clear: both;
     font-weight: 400;
     color: #141414;
-    border: 0;
     background-color: #f0f0f5;
- 
+
 }
 .body-all .body-main-button .icon-right ul a li i{
     padding: 10px;
+
+}
+.body-all .body-main-button .icon-right ul a{
+    text-decoration: none;
 }
 
 .body-all .body-main-button .icon-right ul li {
     list-style : none;
     color: black;
     font-size: 90%;
+
 }
+
 .body-all .body-main-button .icon-right h2{
     font-size: 15px;
     padding: 12px 15px 8px 5px;
@@ -239,8 +244,8 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     border-bottom-right-radius: 6px;
 }
 .body-all .body-main-button .icon-right ul li:hover {
+list-style: none;
 
-    
 }
 
 .body-all .body-main-button .icon-right .select-icon:hover {
