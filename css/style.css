@@ -250,6 +250,7 @@ list-style: none;
 
 .body-all .body-main-button .icon-right .select-icon:hover {
     background: brown;
+    cursor:pointer;
 }
 
 /*body-all*/
