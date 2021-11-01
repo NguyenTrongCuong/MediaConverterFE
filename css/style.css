@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
-body {
-}
+body {}
 
 /* header */
 header {
-    height          : 50px;
+    height: 50px;
     background-color: #f16e43;
 }
 
@@ -19,11 +18,11 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>h3 {
 }
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6 .row a {
-    color          : white;
+    color: white;
     text-decoration: none;
     text-decoration: none;
     vertical-align: middle;
-/*    font-family: 'Nunito', sans-serif;*/
+    /*    font-family: 'Nunito', sans-serif;*/
     font-size: 18.5px;
 }
 
@@ -32,19 +31,20 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6 .row a:hover {
 }
 
 header>.container>.row>.col-lg-6>.row>.col-lg-6 #api h5 {
-    text-align : center;
+    text-align: center;
     margin-left: -10px;
 }
 
-header>.container>.row>.col-lg-6>.row>.col-lg-6 .row .col-lg-6 .row .col-lg-7{
+header>.container>.row>.col-lg-6>.row>.col-lg-6 .row .col-lg-6 .row .col-lg-7 {
     /*Sign-Up*/
     margin-right: 0.5rem;
     margin-left: -0.5rem;
 
 }
+
 header>.container>.row>.col-lg-6>.row>.col-lg-6 #logo a {
     text-decoration: none;
-    color          : white;
+    color: white;
 }
 
 
@@ -57,14 +57,16 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     list-style: none;
     font-size: 14px;
 }
-.advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li h4{
+
+.advertisement-main .container .row .col-lg-6 .subadvertisement .row .col-lg-8 ul li h4 {
     font-weight: bold;
 
 }
+
 .advertisement-main {
     margin-left: -3rem;
     margin-top: 46px;
-    font-family: 'Nutito',sans-serif;
+    font-family: 'Nutito', sans-serif;
 
 
 }
@@ -74,7 +76,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*fotter*/
 .footer {
-    margin-top      : 50px;
+    margin-top: 50px;
     background-color: #f16e43;
 }
 
@@ -98,17 +100,17 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*VietAnhNguyen*/
 header {
-    color          : white;
-    position       : fixed;
-    top            : 0;
-    left           : 0;
-    right          : 0;
-    background     : #333;
-    z-index        : 1000;
-    display        : flex;
-    align-items    : center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-top    : auto;
+    padding-top: auto;
     height: 56px;
 }
 
@@ -126,14 +128,14 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*fotter*/
 .footer {
-    background : #333;
+    background: #333;
     font-family: 0.5rem 'Nunito', sans-serif;
-    text-align : center;
+    text-align: center;
     font-weight: normal;
-    color      : rgb(244, 247, 246);
-    border-top : .1rem solid rgba(255, 255, 255, .2);
-    position   : bottom;
-    bottom     : 0;
+    color: rgb(244, 247, 246);
+    border-top: .1rem solid rgba(255, 255, 255, .2);
+    position: bottom;
+    bottom: 0;
 }
 
 .footer>.container>h2 {
@@ -141,21 +143,19 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .choose {
-    margin-top : 2rem;
-    text-align : left;
+    margin-top: 2rem;
+    text-align: left;
     margin-left: 2rem;
-    font-size  : 1.25rem;
+    font-size: 1.25rem;
 }
 
 /*body-all*/
 
-.body-all {
-
-}
+.body-all {}
 
 .body-all .body-main-button {
-    display        : flex;
-    margin-top     : 60px;
+    display: flex;
+    margin-top: 60px;
     justify-content: center;
 
 
@@ -173,7 +173,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 .body-all .body-main-button .text-left .select-text a {
     text-decoration: none;
-    color          : white;
+    color: white;
     font-family: "Open Sans", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18.75px;
 
@@ -187,7 +187,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     color: #fff;
     background-color: #b53836;
     border-color: #b53836;
-    font-family    : 10px 'Nunito', sans-serif;
+    font-family: 10px 'Nunito', sans-serif;
 
     padding: 10px 12px 6px 15px;
 
@@ -195,18 +195,17 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 .body-all .body-main-button .icon-right>ul {
     /*display    : none;*/
-    background : white;
+    background: white;
     margin-left: -210px;
     margin-top: 2px;
-   position: absolute;
-   z-index: 1;
-   font-size: 18.75px;
+    position: absolute;
+    z-index: 1;
+    font-size: 18.75px;
 
 }
 
-.body-all .body-main-button .icon-right{
+.body-all .body-main-button .icon-right {}
 
-}
 .body-all .body-main-button .icon-right ul a {
     display: block;
     width: 100%;
@@ -221,42 +220,122 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     border-bottom-right-radius: 0.12rem;
     border-bottom-left-radius: 0.12rem;
 }
-.body-all .body-main-button .icon-right ul a:hover{
-    background-color: #909497 ;
+
+.body-all .body-main-button .icon-right ul a:hover {
+    background-color: #909497;
 }
-.body-all .body-main-button .icon-right ul a li i{
+
+.body-all .body-main-button .icon-right ul a li i {
     padding: 10px;
 
 }
-.body-all .body-main-button .icon-right ul a{
+
+.body-all .body-main-button .icon-right ul a {
     text-decoration: none;
 }
 
 .body-all .body-main-button .icon-right ul li {
-    list-style : none;
+    list-style: none;
     color: black;
     font-size: 90%;
 
 }
 
-.body-all .body-main-button .icon-right h2{
+.body-all .body-main-button .icon-right h2 {
     font-size: 15px;
     padding: 12px 15px 8px 5px;
     vertical-align: middle;
 
 }
-.body-all .body-main-button .icon-right .select-icon{
+
+.body-all .body-main-button .icon-right .select-icon {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+
 .body-all .body-main-button .icon-right ul li:hover {
-list-style: none;
+    list-style: none;
 
 }
 
 .body-all .body-main-button .icon-right .select-icon:hover {
     background: brown;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*body-all*/
+
+/* main-options-FE */
+.main-options-title {
+    padding-top: 20px;
+}
+
+.main-options-title .container {
+    border: 1px solid red;
+}
+
+.main-options-title .container .row {
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.main-options-title>.container>.row>.col-lg-11>h4 {
+    margin-left: -32px;
+    font-weight: bold;
+}
+
+/* main-options-FE */
+/*main-second-options-title*/
+/*.main-second-options-title{
+    margin-top: 1px;
+}*/
+.main-second-options-title .container {
+    border: 1px solid gray;
+    background: gray;
+}
+
+.main-second-options-title .container .row {
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+
+.main-second-options-title .container>.row>.col-lg-11>h4 {
+    margin-left: -32px;
+    font-weight: bold;
+}
+
+/*main-second-options-title*/
+
+/*option-main-content*/
+.option-main-content .container {
+    border: 1px solid gray;
+    padding-top: 30px;
+}
+
+.option-main-content .container .row .col-lg-6 .row .col-lg-8 {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.option-main-content .container .row .col-lg-6 .row .col-lg-8 .row i {
+    margin-left: -15px;
+}
+
+/*option-main-content*/
+/*trim*/
+.trim .container {
+    padding-top: 20px;
+    border: 1px solid gray;
+    border-top: none;
+}
+
+/*trim*/
+.banner-footer {
+    margin-top: 30px;
+}
+
+.banner-footer>.container>.row {
+    border: 1px solid gray;
+}
