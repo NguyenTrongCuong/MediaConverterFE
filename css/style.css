@@ -216,7 +216,13 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     font-weight: 400;
     color: #141414;
     background-color: #f0f0f5;
-
+    border-top-right-radius: 0.12rem;
+    border-top-left-radius: 0.12rem;
+    border-bottom-right-radius: 0.12rem;
+    border-bottom-left-radius: 0.12rem;
+}
+.body-all .body-main-button .icon-right ul a:hover{
+    background-color: #909497 ;
 }
 .body-all .body-main-button .icon-right ul a li i{
     padding: 10px;
