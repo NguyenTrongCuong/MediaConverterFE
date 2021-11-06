@@ -339,7 +339,6 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .banner-footer>.container>.row {
     border: 1px solid gray;
 }
-
 /*banner_mp4*/
 .banner_mp4{
     margin-top: 30px;
@@ -357,4 +356,5 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .banner_mp4 .container p{
     margin-bottom: 25px;
 }
+/*banner_mp4*/
 /*banner_mp4*/
