@@ -367,7 +367,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .text-truncate span{
 margin-left: 10px;
 }
-.d-flex.flex-column.flex-md-row {
+.d-flex{
 
     margin-left: 100px;
     margin-right: 100px;
