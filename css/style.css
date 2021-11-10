@@ -194,7 +194,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right>ul {
-    display    : none;
+    display: none;
     background: white;
     margin-left: -210px;
     margin-top: 2px;
@@ -271,7 +271,8 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .main-options-title .container {
-    border: 1px solid red;
+    border: 1px solid #CCCCCC;
+    border-bottom: none;
 }
 
 .main-options-title .container .row {
@@ -290,8 +291,9 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     margin-top: 1px;
 }*/
 .main-second-options-title .container {
-    border: 1px solid gray;
-    background: gray;
+    border: 1px solid #CCCCCC;
+    border-bottom: none;
+    background: #DDDDDD;
 }
 
 .main-second-options-title .container .row {
@@ -308,7 +310,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*option-main-content*/
 .option-main-content .container {
-    border: 1px solid gray;
+    border: 1px solid #CCCCCC;
     padding-top: 30px;
 }
 
@@ -327,7 +329,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 /*trim*/
 .trim .container {
     padding-top: 20px;
-    border: 1px solid gray;
+    border: 1px solid #CCCCCC;
     border-top: none;
 }
 
@@ -337,7 +339,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .banner-footer>.container>.row {
-    border: 1px solid gray;
+    border: 1px solid #CCCCCC;
 }
 
 /*banner_mp4*/
@@ -364,19 +366,19 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /*banner_mp4*/
 
-.text-truncate span{
-margin-left: 10px;
+.text-truncate span {
+    margin-left: 10px;
 }
 
 
 /* Hien Thi Ten File*/
-.d-flex{
+.d-flex {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 20px;
-    background-color: #F4F6F7 ;
+    background-color: #F4F6F7;
     border: 1px solid #ECF0F1;
-    border-color:#ECF0F1 ;
+    border-color: #ECF0F1;
     padding: 4px 20px 4px 20px;
 
 }
@@ -384,8 +386,8 @@ margin-left: 10px;
 /* Hien Thi Ten File*/
 
 /* Nut Convert*/
-.btn-convert-web{   
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+.btn-convert-web {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     margin-top: 20px;
     margin-left: 1030px;
@@ -395,14 +397,18 @@ margin-left: 10px;
     border-radius: 6px 6px 6px 6px;
     padding: 10px 30px 10px 30px;
 }
-.btn-convert-web:hover{
+
+.btn-convert-web:hover {
     background: brown;
     cursor: pointer;
 }
-.text-convert-to{
+
+.text-convert-to {
     margin-left: 160px;
 }
-.delete-icon-1{
-    color:#b53836;
+
+.delete-icon-1 {
+    color: #b53836;
 }
+
 /* Nut Convert*/
