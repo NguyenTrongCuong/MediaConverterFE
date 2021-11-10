@@ -375,6 +375,8 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .d-flex {
     margin-left: 100px;
     margin-right: 100px;
+
+
     margin-top: 20px;
     background-color: #F4F6F7;
     border: 1px solid #ECF0F1;
@@ -383,6 +385,10 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 }
 
+.text-convert-to{
+    margin-left: 150%;
+ 
+}
 /* Hien Thi Ten File*/
 
 /* Nut Convert*/
@@ -390,7 +396,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     margin-top: 20px;
-    margin-left: 1030px;
+    margin-left: 83.5%;
     color: #fff;
     background-color: #b53836;
     border-color: #b53836;
@@ -403,12 +409,12 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     cursor: pointer;
 }
 
+
 .text-convert-to {
     margin-left: 160px;
 }
 
 .delete-icon-1 {
     color: #b53836;
-}
 
 /* Nut Convert*/
