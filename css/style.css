@@ -194,7 +194,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right>ul {
-    display    : none;
+    display    :none;
     background: white;
     margin-left: -210px;
     margin-top: 2px;
@@ -383,6 +383,8 @@ margin-left: 10px;
 
 .text-convert-to{
     margin-left: 150%;
+
+
  
 }
 /* Hien Thi Ten File*/
@@ -408,3 +410,20 @@ margin-left: 10px;
     color:#b53836;
 }
 /* Nut Convert*/
+
+.dropdown-menu1{
+    background-color: #1e1e1e;
+    transition: none!important;
+    border: none!important;
+    padding: 10px;
+    border-radius: 0.25rem!important;
+    color: #fff;
+    min-width: 350px;
+    width:500px;
+    margin-left: 35%;
+}
+
+
+.menu-dropdown{
+    background-color: #141414;
+}
