@@ -194,11 +194,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 .body-all .body-main-button .icon-right>ul {
-<<<<<<< HEAD
-    display    :none;
-=======
     display: none;
->>>>>>> fb28de8e5f6297e14c40c9421eb3bdddf5b2c769
     background: white;
     margin-left: -210px;
     margin-top: 2px;
@@ -379,8 +375,6 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .d-flex {
     margin-left: 100px;
     margin-right: 100px;
-
-
     margin-top: 20px;
     background-color: #F4F6F7;
     border: 1px solid #ECF0F1;
@@ -388,11 +382,16 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     padding: 4px 20px 4px 20px;
 
 }
+.text-truncate{
+    white-space: nowrap; 
+    width: 420px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
 
 .text-convert-to{
-    margin-left: 150%;
-
-
+   /* margin-left: 150%;*/
+    margin-left: 20px;
  
 }
 /* Hien Thi Ten File*/
@@ -408,6 +407,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     border-color: #b53836;
     border-radius: 6px 6px 6px 6px;
     padding: 10px 30px 10px 30px;
+
 }
 
 .btn-convert-web:hover {
@@ -416,11 +416,19 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 }
 
 
-.text-convert-to {
-    margin-left: 160px;
+
+/* Nut Convert*/
+
+.menu-dropdown{
+    background-color: #141414;
+}
+
+.delete-icon-1 {
+    color: #b53836;
 }
 /* Nut Convert*/
 
+/* DropDown Chon Dinh Dang File*/
 .dropdown-menu1{
     background-color: #1e1e1e;
     transition: none!important;
@@ -433,12 +441,14 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     margin-left: 35%;
 }
 
-
-.menu-dropdown{
-    background-color: #141414;
+.overflow-auto.formats ul li{
+    list-style: none;
+    
 }
-
-.delete-icon-1 {
-    color: #b53836;
-
-/* Nut Convert*/
+.btn.btn-secondary{
+    
+    list-style-position: outside;
+    list-style: none;
+    background-color: #b53836;
+}
+/* DropDown Chon Dinh Dang File*/
