@@ -372,14 +372,20 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 
 /* Hien Thi Ten File*/
+.select-and-convert-file-all{
+    position: relative;
+    z-index: 50;
+}
 .d-flex {
-    margin-left: 100px;
-    margin-right: 100px;
+
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 20px;
     background-color: #F4F6F7;
     border: 1px solid #ECF0F1;
     border-color: #ECF0F1;
     padding: 4px 20px 4px 20px;
+    height: 45px;
 
 }
 .text-truncate{
@@ -387,26 +393,34 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     width: 430px;
     overflow: hidden;
     text-overflow: ellipsis; 
+    position: absolute;
+    top: 5px;
 }
 
 .text-convert-to{
+    top:0;
+    position: absolute;
    /* margin-left: 150%;*/
-    margin-left: 20px;
+    margin-left: 40%;
  
 }
 /* Hien Thi Ten File*/
 
 /* Nut Convert*/
 .btn-convert-web {
+
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
+    top:0;
+    margin-left: 85.5%;
     margin-top: 20px;
-    margin-left: 83.5%;
     color: #fff;
     background-color: #b53836;
     border-color: #b53836;
     border-radius: 6px 6px 6px 6px;
     padding: 10px 30px 10px 30px;
+    z-index: 50;
+
 
 }
 
@@ -420,6 +434,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 /* Nut Convert*/
 
 .menu-dropdown{
+
     background-color: #141414;
 }
 
@@ -431,7 +446,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 /* DropDown Chon Dinh Dang File*/
 
 .dropdown-menu1{
-
+    position: absolute;
     background-color: black;
     transition: none!important;
     border: none!important;
@@ -440,6 +455,8 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     color: #fff;
     width: 320px;
     margin-left: 40%;
+    margin-top: 2px;
+
 }
 .choose-button{
 
