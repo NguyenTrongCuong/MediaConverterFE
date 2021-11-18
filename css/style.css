@@ -455,10 +455,10 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     padding: 5px;
     border-radius: 0.25rem!important;
     color: #fff;
-    width: 320px;
+    width: 420px;
     margin-left: 40.5%;
     margin-top: 2px;
-
+    background-color: aqua;
 }
 .choose-button{
 
@@ -472,10 +472,18 @@ text-align: center;
     width: 50px;
 
 
+
 }
 
 .wrapper1{
     background-color: black;
+    float: left;
+    vertical-align: bottom;
+    bottom: 0.3rem;
+    position: absolute;
+
+background-color: chocolate;
+
 }
 .btn.btn-secondary{
     width: 70px;
@@ -498,10 +506,12 @@ text-align: center;
     flex-wrap: wrap;
     flex-direction: row;
     width: 270px;
-
+    background-color: bisque;
+    margin-left: 50px;
 }
 .wrapper1 .groups li{
     list-style: none;
     margin-top: 5px;
+    margin-left: -2rem;
 }
 /* DropDown Chon Dinh Dang File*/
