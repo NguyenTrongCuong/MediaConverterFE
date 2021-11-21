@@ -461,9 +461,9 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     border-radius: 0.25rem!important;
     color: #fff;
     width: 25%;
-    margin-left: 42.5%;
+    margin-left: 37.5%;
     margin-top: 2px;
-    background-color: aqua;
+    /*background-color: aqua;*/
 
 
 }
@@ -486,14 +486,19 @@ text-align: center;
     background-color: black;
     float: left;
     vertical-align: bottom;
-    bottom: 0.5rem;
+bottom: 0.1rem;
     position: absolute;
-margin-left: 2px;;
-background-color: chocolate;
+    margin-left: 2px;;
+    /*background-color: chocolate;*/
 
 }
+.wrapper1 ul li{
+    margin-bottom: 0.5rem;
+    /*background-color: #b53836;*/
+}
 .btn.btn-secondary{
-    width: 70px;
+
+    width: 4.375rem;
     list-style-position: outside;
     list-style: none;
     background-color: #333;
@@ -506,14 +511,17 @@ background-color: chocolate;
 
   }
 .box {
+
     list-style: none;
     padding: 0;
     background-color: inherit;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 270px;
+    max-width: fit-content;
+
     background-color: inherit;
     margin-left: 17%;
+    /*background-color: #909497;*/
 }
 .wrapper1 .groups li{
     list-style: none;
