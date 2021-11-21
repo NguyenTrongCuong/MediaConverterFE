@@ -235,6 +235,495 @@
 
     <!-- Nut Convert -->
     </div>
+
+
+
+    <!-- main-options-FE -->
+    <div class="main-options-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1">
+                    <h5><i class="fas fa-wrench"></i></h5>
+                </div>
+                <div class="col-lg-11">
+                    <h5>OPTIONS</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main-options-FE -->
+
+    <!-- The first one: Audio + Trim -->
+    <div class="the_first_one_audio_trim">
+        <!-- main-second-options-FE -->
+        <div class="main-second-options-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <h5><i class="fas fa-volume-up"></i></h5>
+                    </div>
+                    <div class="col-lg-11">
+                        <h5>AUDIO</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-second-options-FE -->
+
+        <!-- option-main-content1 -->
+        <div class="option-main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Audio Codec</h5>
+                            </div>
+                            <div class="col-lg-8" style="border: none;">
+                                <form>
+                                    <select name="cars" class="custom-select custom-select-lg"
+                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                        <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
+                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                        <option style="font-size: 20px;" value="audi">Audi</option>
+                                    </select>
+                                </form>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
+                                <p style="color: gray;">Codec to encode the audio. Use "copy" to copy the stream without
+                                    re-encoding</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- option-main-content1 -->
+
+
+        <!-- option-main-content2 -->
+        <div class="option-main-content">
+            <div class="container" style="border-top: none;">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Audio Bitrate</h5>
+                            </div>
+                            <div class="col-lg-8" style="border:none;">
+                                <input type="number" value="10"
+                                    style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8"
+                                style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
+                                <p style="color: gray;">Constant bitrate for MP3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right -->
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Volume</h5>
+                            </div>
+                            <div class="col-lg-8" style="border: none;">
+                                <form>
+                                    <select name="cars" class="custom-select custom-select-lg"
+                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                        <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
+                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                        <option style="font-size: 20px;" value="audi">Audi</option>
+                                    </select>
+                                </form>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -10px;">
+                                <p style="color: gray;">Make audio louder or quiter</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!-- right -->
+                </div>
+            </div>
+        </div>
+        <!-- option-main-content2 -->
+
+        <!-- main-second-options-FE -->
+        <div class="main-second-options-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <h5><i class="fas fa-cut"></i></h5>
+                    </div>
+                    <div class="col-lg-11">
+                        <h5>TRIM</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-second-options-FE -->
+
+        <!-- TRIM -->
+        <div class="trim">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h5>Trim Start: </h5>
+                                </div>
+                                <div class="col-lg-8">
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="HH"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="MM"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="SS">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row" style="margin-bottom: 20px;">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="color: gray;">Trim start timestamp(HH:MM:SS)</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-4"><label for="pin">
+                                        <h5>Trim End: </h5>
+                                    </label></div>
+                                <div class="col-lg-8"><input type="number" id="tentacles" name="tentacles" size="4"
+                                        min="1" max="10" placeholder="HH"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="MM"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="SS">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row" style="margin-bottom:20px">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="color: gray;">Trim end timestamp(HH:MM:SS)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TRIM -->
+    </div>
+    <!-- The first one: Audio + Trim -->
+
+
+    <!-- The second one: Video + Trim -->
+    <div class="the_second_one_audio_trim">
+        <!-- main-second-options-FE -->
+        <div class="main-second-options-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <h5><i class="fas fa-video"></i></h5>
+                    </div>
+                    <div class="col-lg-11">
+                        <h5>Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-second-options-FE -->
+
+        <!-- VIDEOS -->
+        <div class="videos">
+            <div class="option-main-content">
+                <div class="container">
+                    <div class="row" style="border-bottom: 1px solid #CCCCCC; margin-top: -30px; padding-top: 20px;">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h5>Resolution</h5>
+                                </div>
+                                <div class="col-lg-8" style="border: none;">
+                                    <form>
+                                        <select name="cars" class="custom-select custom-select-lg"
+                                            style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                            <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
+                                            <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                            <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                            <option style="font-size: 20px;" value="audi">Audi</option>
+                                        </select>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
+                                    <p style="color: gray;">By default we keep the current resolution</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h5>Video Codec</h5>
+                                </div>
+                                <div class="col-lg-8" style="border: none;">
+                                    <form>
+                                        <select name="cars" class="custom-select custom-select-lg"
+                                            style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                            <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
+                                            <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                            <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                            <option style="font-size: 20px;" value="audi">Audi</option>
+                                        </select>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
+                                    <p style="color: gray;width: 322px; ">Codec to encode the video. Use "copy" to copy
+                                        the
+                                        stream
+                                        without re-encoding</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="border-top: none; padding-top: 30px; padding-bottom: 0px;">
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h5>FPS</h5>
+                                </div>
+                                <div class="col-lg-8" style="border: none;">
+                                    <form>
+                                        <select name="cars" class="custom-select custom-select-lg"
+                                            style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                            <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
+                                            <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                            <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                            <option style="font-size: 20px;" value="audi">Audi</option>
+                                        </select>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
+                                    <p style="color: gray; ">Change the video frame</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- VIDEOS -->
+
+        <!-- main-second-options-FE -->
+        <div class="main-second-options-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <h5><i class="fas fa-cut"></i></h5>
+                    </div>
+                    <div class="col-lg-11">
+                        <h5>TRIM</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-second-options-FE -->
+
+        <!-- TRIM -->
+        <div class="trim">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-4"><label for="pin">
+                                        <h5>Trim Start: </h5>
+                                    </label></div>
+                                <div class="col-lg-8">
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="HH"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="MM"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="SS">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row" style="margin-bottom: 20px">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="color: gray;">Trim start timestamp(HH:MM:SS)</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-4"><label for="pin">
+                                        <h5>Trim End: </h5>
+                                    </label></div>
+                                <div class="col-lg-8">
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="HH"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="MM"> :
+                                    <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
+                                        placeholder="SS">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row" style="margin-bottom: 20px;">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="color: gray;">Trim end timestamp(HH:MM:SS)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TRIM -->
+        <!-- The second one: Video + Trim -->
+    </div>
+
+
+    <!-- The third one: Image -->
+    <div class="the_third_one_images">
+
+        <!-- main-third-options-FE -->
+        <div class="main-second-options-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1">
+                        <h5><i class="fas fa-images"></i></h5>
+                    </div>
+                    <div class="col-lg-11">
+                        <h5>IMAGES</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main-third-options-FE -->
+
+
+        <!-- option-main-content3 -->
+        <div class="option-main-content">
+            <div class="container" style="border-top: none;">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Width</h5>
+                            </div>
+                            <div class="col-lg-8" style="border:none;">
+                                <input type="number" value="10"
+                                    style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8"
+                                style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
+                                <p style="color: gray;">Output width in pixel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right -->
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Height</h5>
+                            </div>
+                            <div class="col-lg-8" style="border:none;">
+                                <input type="number" value="10"
+                                    style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8"
+                                style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
+                                <p style="color: gray;">Output height in pixel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right -->
+                </div>
+            </div>
+        </div>
+        <!-- option-main-content3 -->
+        <!-- MAX -->
+        <div class="option-main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5>Filter</h5>
+                            </div>
+                            <div class="col-lg-8" style="border: none;">
+                                <form>
+                                    <select name="cars" class="custom-select custom-select-lg"
+                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
+                                        <option style="font-size: 20px;" selected>Max</option>
+                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
+                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
+                                        <option style="font-size: 20px;" value="audi">Audi</option>
+                                    </select>
+                                </form>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
+                                <p style="color: gray;width: 310px;">Sets the mode of resizing the image. "Max" resizes
+                                    the
+                                    image to fit within the width and height, but will not increase the size of the
+                                    image if
+                                    it is smaller than width or height. "Crop" resizes the images to fill the width and
+                                    height dimensions and crops any excess image data. "Scale" enforces the image width
+                                    and
+                                    height by scaling</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
+            </div>
+        </div>
+        <!-- MAX -->
+    </div>
+    <!-- The third one: Image -->
+
     <!-- advertisement-main-->
     <div class="advertisement-main">
         <div class="container">
@@ -322,498 +811,6 @@
     </div>
     <!-- advertisement-main-->
 
-
-    <!-- main-options-FE -->
-    <div class="main-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-wrench"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>OPTIONS</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-options-FE -->
-    <!-- main-second-options-FE -->
-    <div class="main-second-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-volume-up"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>AUDIO</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-second-options-FE -->
-
-    <!-- option-main-content1 -->
-    <div class="option-main-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Audio Codec</h5>
-                        </div>
-                        <div class="col-lg-8" style="border: none;">
-                            <form>
-                                <select name="cars" class="custom-select custom-select-lg"
-                                    style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                    <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
-                                    <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                    <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                    <option style="font-size: 20px;" value="audi">Audi</option>
-                                </select>
-                            </form>
-
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
-                            <p style="color: gray;">Codec to encode the audio. Use "copy" to copy the stream without
-                                re-encoding</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"></div>
-            </div>
-        </div>
-    </div>
-    <!-- option-main-content1 -->
-
-
-
-    <!-- option-main-content2 -->
-    <div class="option-main-content">
-        <div class="container" style="border-top: none;">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Audio Bitrate</h5>
-                        </div>
-                        <div class="col-lg-8" style="border:none;">
-                            <input type="number" value="10"
-                                style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8"
-                            style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
-                            <p style="color: gray;">Constant bitrate for MP3</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- right -->
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Volumn</h5>
-                        </div>
-                        <div class="col-lg-8" style="border: none;">
-                            <form>
-                                <select name="cars" class="custom-select custom-select-lg"
-                                    style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                    <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
-                                    <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                    <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                    <option style="font-size: 20px;" value="audi">Audi</option>
-                                </select>
-                            </form>
-
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -10px;">
-                            <p style="color: gray;">Make audio louder or quiter</p>
-                        </div>
-                    </div>
-
-
-
-                </div>
-                <!-- right -->
-            </div>
-        </div>
-    </div>
-    <!-- option-main-content2 -->
-
-    <!-- main-second-options-FE -->
-    <div class="main-second-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-cut"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>TRIM</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-second-options-FE -->
-
-    <!-- TRIM -->
-    <div class="trim">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h5>Trim Start: </h5>
-                            </div>
-                            <div class="col-lg-8">
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="HH"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="MM"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="SS">
-                            </div>
-                        </div>
-                    </form>
-                    <div class="row" style="margin-bottom: 20px;">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="color: gray;">Trim start timestamp(HH:MM:SS)</div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-4"><label for="pin">
-                                    <h5>Trim End: </h5>
-                                </label></div>
-                            <div class="col-lg-8"><input type="number" id="tentacles" name="tentacles" size="4" min="1"
-                                    max="10" placeholder="HH"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="MM"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="SS">
-                            </div>
-                        </div>
-                    </form>
-                    <div class="row" style="margin-bottom:20px">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="color: gray;">Trim end timestamp(HH:MM:SS)</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- TRIM -->
-
-    <!-- main-second-options-FE -->
-    <div class="main-second-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-video"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>Video</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-second-options-FE -->
-
-
-
-
-
-
-    <!-- VIDEOS -->
-    <div class="videos">
-        <div class="option-main-content">
-            <div class="container">
-                <div class="row" style="border-bottom: 1px solid #CCCCCC; margin-top: -30px; padding-top: 20px;">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h5>Resolution</h5>
-                            </div>
-                            <div class="col-lg-8" style="border: none;">
-                                <form>
-                                    <select name="cars" class="custom-select custom-select-lg"
-                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                        <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
-                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                        <option style="font-size: 20px;" value="audi">Audi</option>
-                                    </select>
-                                </form>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4"></div>
-                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
-                                <p style="color: gray;">By default we keep the current resolution</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h5>Video Codec</h5>
-                            </div>
-                            <div class="col-lg-8" style="border: none;">
-                                <form>
-                                    <select name="cars" class="custom-select custom-select-lg"
-                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                        <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
-                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                        <option style="font-size: 20px;" value="audi">Audi</option>
-                                    </select>
-                                </form>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4"></div>
-                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
-                                <p style="color: gray;width: 322px; ">Codec to encode the video. Use "copy" to copy the
-                                    stream
-                                    without re-encoding</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row" style="border-top: none; padding-top: 30px; padding-bottom: 0px;">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <h5>FPS</h5>
-                            </div>
-                            <div class="col-lg-8" style="border: none;">
-                                <form>
-                                    <select name="cars" class="custom-select custom-select-lg"
-                                        style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                        <option style="font-size: 20px;" selected>Large Custom Select Menu</option>
-                                        <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                        <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                        <option style="font-size: 20px;" value="audi">Audi</option>
-                                    </select>
-                                </form>
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-4"></div>
-                            <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
-                                <p style="color: gray; ">Change the video frame</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6"></div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- VIDEOS -->
-
-    <!-- main-second-options-FE -->
-    <div class="main-second-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-cut"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>TRIM</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-second-options-FE -->
-
-    <!-- TRIM -->
-    <div class="trim">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-4"><label for="pin">
-                                    <h5>Trim Start: </h5>
-                                </label></div>
-                            <div class="col-lg-8">
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="HH"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="MM"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="SS">
-                            </div>
-                        </div>
-                    </form>
-                    <div class="row" style="margin-bottom: 20px">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="color: gray;">Trim start timestamp(HH:MM:SS)</div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-4"><label for="pin">
-                                    <h5>Trim End: </h5>
-                                </label></div>
-                            <div class="col-lg-8">
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="HH"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="MM"> :
-                                <input type="number" id="tentacles" name="tentacles" size="4" min="1" max="10"
-                                    placeholder="SS">
-                            </div>
-                        </div>
-                    </form>
-                    <div class="row" style="margin-bottom: 20px;">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="color: gray;">Trim end timestamp(HH:MM:SS)</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- TRIM -->
-
-
-    <!-- main-third-options-FE -->
-    <div class="main-second-options-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-images"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>IMAGES</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- main-third-options-FE -->
-
-
-    <!-- option-main-content3 -->
-    <div class="option-main-content">
-        <div class="container" style="border-top: none;">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Width</h5>
-                        </div>
-                        <div class="col-lg-8" style="border:none;">
-                            <input type="number" value="10"
-                                style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8"
-                            style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
-                            <p style="color: gray;">Output width in pixel</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Right -->
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Height</h5>
-                        </div>
-                        <div class="col-lg-8" style="border:none;">
-                            <input type="number" value="10"
-                                style="height: 46px;width: 322px;margin-left: -10px;margin-top: -10px;">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8"
-                            style="border: none; margin-top: -10px;margin-left: -8px; border-radius: 10px 10px 10px 10px;">
-                            <p style="color: gray;">Output height in pixel</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- right -->
-            </div>
-        </div>
-    </div>
-    <!-- option-main-content3 -->
-    <!-- MAX -->
-    <div class="option-main-content">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <h5>Filter</h5>
-                        </div>
-                        <div class="col-lg-8" style="border: none;">
-                            <form>
-                                <select name="cars" class="custom-select custom-select-lg"
-                                    style="height: 46px;width: 322px;margin-left: -12px;margin-top: -10px;">
-                                    <option style="font-size: 20px;" selected>Max</option>
-                                    <option style="font-size: 20px;" value="volvo">Volvo</option>
-                                    <option style="font-size: 20px;" value="fiat">Fiat</option>
-                                    <option style="font-size: 20px;" value="audi">Audi</option>
-                                </select>
-                            </form>
-
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-8" style="border: none; margin-top: -10px;margin-left: -8px;">
-                            <p style="color: gray;width: 310px;">Sets the mode of resizing the image. "Max" resizes the
-                                image to fit within the width and height, but will not increase the size of the image if
-                                it is smaller than width or height. "Crop" resizes the images to fill the width and
-                                height dimensions and crops any excess image data. "Scale" enforces the image width and
-                                height by scaling</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6"></div>
-            </div>
-        </div>
-    </div>
-    <!-- MAX -->
-
-
-    <!-- Banner-MP4 -->
-    <div class="banner_mp4">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <h5><i class="fas fa-file"></i></h5>
-                </div>
-                <div class="col-lg-11">
-                    <h5>MP4</h5>
-                </div>
-            </div>
-            <p>MP4, also known as MPEG4 is mainly a video format that is used to store video and audio data. Also it can
-                store images and subtitles. Normally it is used to share videos over internet. MP4 can embed any data
-                over private streams. Streaming information is included in MP4 using a distinct hint.</p>
-        </div>
-    </div>
-    <!-- Banner-MP4 -->
 
     <!--banner-footer  -->
     <div class="banner-footer">

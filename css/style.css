@@ -376,10 +376,11 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 
 /* Hien Thi Ten File*/
-.select-and-convert-file-all{
+.select-and-convert-file-all {
     position: relative;
     z-index: 50;
 }
+
 .d-flex {
 
     margin-left: 50px;
@@ -392,25 +393,26 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
     height: 45px;
 
 }
-.text-truncate{
-    white-space: nowrap; 
+
+.text-truncate {
+    white-space: nowrap;
     width: 430px;
     overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
     position: absolute;
     top: 5px;
 }
 
-.text-convert-to{
-    top:5px;
+.text-convert-to {
+    top: 5px;
     position: absolute;
-   /* margin-left: 150%;*/
+    /* margin-left: 150%;*/
     margin-left: 41%;
 
-     
+
 }
 
-.menu-dropdown{
+.menu-dropdown {
 
     background-color: #141414;
 }
@@ -418,6 +420,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 .delete-icon-1 {
     color: #b53836;
 }
+
 /* Hien Thi Ten File*/
 
 /* Nut Convert*/
@@ -425,7 +428,7 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
-    top:0;
+    top: 0;
     float: right;
     margin-right: 50px;
     margin-top: 20px;
@@ -452,13 +455,13 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 /* DropDown Chon Dinh Dang File*/
 
-.dropdown-menu1{
+.dropdown-menu1 {
     position: absolute;
     background-color: black;
-    transition: none!important;
-    border: none!important;
+    transition: none !important;
+    border: none !important;
     padding: 5px;
-    border-radius: 0.25rem!important;
+    border-radius: 0.25rem !important;
     color: #fff;
     width: 25%;
     margin-left: 37.5%;
@@ -467,12 +470,14 @@ header>.container>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>.row>.col-lg-6>h6
 
 
 }
-.choose-button{
 
-text-align: center;
+.choose-button {
+
+    text-align: center;
     background-color: aqua;
 }
-.box-item{
+
+.box-item {
     list-style: none;
     margin-right: 30px;
     margin-top: 5px;
@@ -482,21 +487,24 @@ text-align: center;
 
 }
 
-.wrapper1{
+.wrapper1 {
     background-color: black;
     float: left;
     vertical-align: bottom;
-bottom: 0.1rem;
+    bottom: 0.1rem;
     position: absolute;
-    margin-left: 2px;;
+    margin-left: 2px;
+    ;
     /*background-color: chocolate;*/
 
 }
-.wrapper1 ul li{
+
+.wrapper1 ul li {
     margin-bottom: 0.5rem;
     /*background-color: #b53836;*/
 }
-.btn.btn-secondary{
+
+.btn.btn-secondary {
 
     width: 4.375rem;
     list-style-position: outside;
@@ -509,7 +517,8 @@ bottom: 0.1rem;
 
     display: flex;
 
-  }
+}
+
 .box {
 
     list-style: none;
@@ -523,9 +532,11 @@ bottom: 0.1rem;
     margin-left: 17%;
     /*background-color: #909497;*/
 }
-.wrapper1 .groups li{
+
+.wrapper1 .groups li {
     list-style: none;
     margin-top: 5px;
     margin-left: -2rem;
 }
+
 /* DropDown Chon Dinh Dang File*/
